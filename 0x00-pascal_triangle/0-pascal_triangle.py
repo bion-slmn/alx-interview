@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 '''this module answers a pascal triangle question'''
 
 
