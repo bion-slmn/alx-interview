@@ -3,14 +3,13 @@
 reach N'''
 
 
-def minOperations(n: int) ->int:
+def minOperations(n: int) -> int:
     '''calcutating minoperation'''
 
     if n <= 1:
         return 0
     if n == 2:
         return 2
-    
 
     clipBoard = 'H'
     val = 'HH'
