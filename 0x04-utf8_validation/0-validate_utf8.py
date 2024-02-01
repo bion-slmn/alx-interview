@@ -17,7 +17,7 @@ def validUTF8(data):
     for val in data:
         if number_of_bytes > 0:
             if val >> 6 == 0b10:
-                number_of_bytes = -1
+                number_of_bytes -= 1
             else:
                 return False
         else:
@@ -31,4 +31,4 @@ def validUTF8(data):
                 number_of_bytes = 3
             else:
                 return False
-    return True
+    return number_of_bytes == 0
