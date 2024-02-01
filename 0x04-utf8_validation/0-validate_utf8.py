@@ -2,10 +2,9 @@
 '''
 defines a function to validate a sequence and valid utf-8 encoding
 '''
-from typing import List
 
 
-def validUTF8(data: List[int]) -> bool:
+def validUTF8(data):
     '''validate if the data passed is a utf8 encoding
 
     Parameter:
